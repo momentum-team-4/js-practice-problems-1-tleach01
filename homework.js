@@ -9,14 +9,15 @@ const leftover= 20 % 6;
 
 // 3. Create a function called greeting that returns "Hello, <name>!",
 // where <name> is the name given as an argument to the function.
+
 function greeting (name) {
     return "Hello," + name + "!"}
 
-Hello(Chase)
+greeting(Chase)
 
-Hello(Kendall)
+greeting(Kendall)
 
-Hello(Ryan)
+greeting(Ryan)
 
 // 4. Create a function called isOdd that, given a number, will
 // rete if it is odd and false if it is not. An odd number is a
@@ -28,7 +29,7 @@ function isOdd(x){
         return true
     } else if (x % 2 === -1){
         return true
-    } 
+    } else return false
 }
 
 // 5. Create a function called isEven that, given a number, will
@@ -36,7 +37,8 @@ function isOdd(x){
 // number which, when divided by 2, has a remainder of 0.
 
 function isEven(x){
-if (x /2 === 0){return true;}
+    if (x /2 === 0){
+    return true;}
      else if (x /2 !== 0){
         return false}
 
